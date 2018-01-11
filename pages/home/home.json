@@ -1,0 +1,6 @@
+{
+"navigationBarTitleText": "售后宝",
+"usingComponents": {
+  "shop-item": "../../base/popup/popup"
+}
+}

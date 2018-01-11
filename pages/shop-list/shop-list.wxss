@@ -1,0 +1,6 @@
+.shop-list{
+  display: flex;
+  flex-flow: column;
+  margin-left: 20rpx;
+}
+

@@ -1,0 +1,49 @@
+@import "/public/wxss/common.wxss";
+
+.shop {
+  padding: 20rpx;
+  padding-left: 0;
+  border-bottom: 1px solid #A6A6A6;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+
+.shop text{
+  color: #000;
+  line-height: 1.2;
+}
+
+.shop-detail{
+  display: flex;
+  flex-flow:column wrap;
+  flex: 1;
+}
+
+.shop-detail >text,
+.shop-detail >view{
+  margin-bottom: 10rpx;
+}
+
+.shop-pic{
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 10rpx;
+}
+.shop-tags{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.shop-tags text{
+  padding: 6rpx 10rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+  background-color:#1296DB;
+  color: #fff;
+}
+
+.shop-location {
+  display: flex;
+  justify-content: space-between;
+}

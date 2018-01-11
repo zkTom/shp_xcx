@@ -1,0 +1,27 @@
+/* lib */
+.strong{
+  font-weight: bold;
+}
+.tc{
+  text-align: center;
+}
+
+/* 字体 */
+.font-36{
+  font-size: 36rpx;
+}
+.font-32{
+  font-size: 32rpx;
+}
+.font-28{
+  font-size: 28rpx;
+}
+.font-24{
+  font-size: 24rpx;
+}
+.font-22{
+  font-size: 22rpx;
+}
+.font-20{
+  font-size: 20rpx;
+}

@@ -1,0 +1,34 @@
+<view class='container home'>
+  <view class="home-content">
+    <view class="home-item">
+      <view class="img-wrap">
+        <image src='/public/images/notice.png'></image>
+      </view>
+      <text class="home-item-text font-32">手机为维修</text>
+    </view>
+    <view class="home-item">
+      <view class="img-wrap">
+        <image src='/public/images/notice.png'></image>
+      </view>
+      <text class="home-item-text font-32">家电维修</text>
+    </view>
+    <view class="home-item">
+      <view class="img-wrap">
+        <image src='/public/images/notice.png'></image>
+      </view>
+      <text class="home-item-text font-32">车辆保养</text>
+    </view>
+    <view class="home-item">
+      <view class="img-wrap">
+        <image src='/public/images/notice.png'></image>
+      </view>
+      <text class="home-item-text font-32">家居服务</text>
+    </view>
+  </view>
+  <view class='more' bindtap='moreTap'>
+    <image src='/public/images/more.png'></image>
+  </view>
+  <popup animation-mode="top" align="top" is-show="{{isShow}}">
+    <view style='width:100%;height:200rpx;'>hello world</view>
+  </popup>
+</view>

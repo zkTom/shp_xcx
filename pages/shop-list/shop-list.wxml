@@ -1,0 +1,6 @@
+<view class='container shop-list'>
+  <block wx:for='{{shopPage.list}}' wx:for-item="shop" wx:key="{{shop.title}}">
+     <shop-item shop="{{shop}}"></shop-item>
+  </block>
+  <loadmore is-bottom="{{false}}" is-show="{{isShow}}"></loadmore>
+</view>

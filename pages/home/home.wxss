@@ -1,0 +1,39 @@
+.home{
+  padding:40rpx 20rpx;
+  position: relative;
+  height: auto;
+}
+.home-content{
+  margin-top: 100rpx;
+  margin-bottom: 60rpx;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.home-item{
+  width: 50%;
+  padding: 0;
+  margin: 30rpx 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.home-item .img-wrap{
+  width: 225rpx;
+  height: 225rpx;
+  margin-bottom: 20rpx;
+}
+
+.home-item text{
+  color: #000;
+}
+
+.more{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 40rpx;
+}

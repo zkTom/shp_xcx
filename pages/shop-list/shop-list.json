@@ -1,0 +1,7 @@
+{
+"navigationBarTitleText": "售后宝",
+"usingComponents": {
+  "shop-item": "./shop-item/shop-item",
+  "loadmore": "/base/loadmore/loadmore"
+}
+}

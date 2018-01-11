@@ -1,0 +1,16 @@
+<view class="loadmore" wx:if="{{isShow}}">
+  <view class='loadmore-content'>
+    <slot></slot>
+    <block>
+      <block wx:if="{{isBottom}}">
+        <view class="loadmore__line"></view>
+        <text class="loadmore__text">{{ loadedText }}</text>
+        <view class="loadmore__line"></view>
+      </block>
+      <view wx:else class="loadmore__wrap">
+        <view class="loadmore__loading-icon"></view>
+        <text class="loadmore__loading-text">{{ text }}</text>
+      </view>
+    </block>
+  </view>
+</view>

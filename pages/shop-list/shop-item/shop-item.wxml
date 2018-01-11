@@ -1,0 +1,21 @@
+  <view class="shop">
+    <view class="shop-pic">
+      <image src="{{shop.cover}}"></image>
+    </view>
+    <view class="shop-detail">
+      <text class="shop-name font-32">{{shop.title}}</text>
+      <view class="service-quality font-28">
+        <text class='strong'>{{shop.rate}}</text>
+      </view>
+      <view class="shop-tags font-24">
+        <text>上门快速</text>
+        <text>服务质量高</text>
+        <text>售后服务好</text>
+      </view>
+      <view class='shop-location font-28'>
+        <text>黑龙江路2号</text>
+        <text>12km</text>
+      </view>
+      <view style="text-align:right;" class='font-24'>10分钟前，有用户下过单</view>
+    </view>
+  </view>

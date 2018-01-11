@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/shop-list/shop-list"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "售后宝",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/public/images/tabbar/home.png",
+        "selectedIconPath": "/public/images/tabbar/home-on.png"
+      },
+      {
+        "pagePath": "pages/shop-list/shop-list",
+        "text": "排行",
+        "iconPath": "/public/images/tabbar/home.png",
+        "selectedIconPath": "/public/images/tabbar/home-on.png"
+      },
+      {
+        "pagePath": "pages/shop-list/shop-list",
+        "text": "赞榜",
+        "iconPath": "/public/images/tabbar/home.png",
+        "selectedIconPath": "/public/images/tabbar/home-on.png"
+      },
+      {
+        "pagePath": "pages/shop-list/shop-list",
+        "text": "列表",
+        "iconPath": "/public/images/tabbar/home.png",
+        "selectedIconPath": "/public/images/tabbar/home-on.png"
+      },
+      {
+        "pagePath": "pages/shop-list/shop-list",
+        "text": "我的",
+        "iconPath": "/public/images/tabbar/home.png",
+        "selectedIconPath": "/public/images/tabbar/home-on.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}
