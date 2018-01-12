@@ -12,10 +12,6 @@ Component({
         } 
       }
     },
-    locked: {
-      type: String,
-      value: "hide"
-    },
     animationMode: {
       type: String,
       value: 'none'

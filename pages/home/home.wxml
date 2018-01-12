@@ -28,7 +28,17 @@
   <view class='more' bindtap='moreTap'>
     <image src='/public/images/more.png'></image>
   </view>
-  <popup animation-mode="top" align="top" is-show="{{isShow}}">
-    <view style='width:100%;height:200rpx;'>hello world</view>
+  <popup animation-mode="top" align="top" status="{{isShow}}">
+    <!--所有分类-->
+    <view class='category-wrap'>
+      <view class='category'>
+        <text>常用分类</text>
+        <view class='category-list'>
+           <block wx:for="{{categoryList}}" wx:for-item="category" wx:key="{{category}}"> 
+            <text class='category-item' bindtap='categoryTap'>{{category}}</text>
+           </block> 
+        </view>
+      </view>
+    </view>
   </popup>
 </view>
